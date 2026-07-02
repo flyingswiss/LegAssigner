@@ -1,17 +1,1 @@
-<!doctype html><html lang="de"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#08121d">
-<link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="style.css">
-<title>TeamAssign</title></head><body>
-<script>
-if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js')}
-</script>
-<div class="app"><h1>🎲 TEAM ASSIGN</h1>
-<p>Wähle die Anzahl Optionen</p><div id="choices"></div>
-<button id="draw">Zuteilung starten</button>
-<div class="grid">
-<div><h2>CMD</h2><div id="cmd"></div><div id="cmdStats"></div></div>
-<div><h2>F/O</h2><div id="fo"></div><div id="foStats"></div></div>
-</div>
-<script src="app.js"></script></div></body></html>
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TeamAssign</title><link rel="stylesheet" href="style.css"></head><body><div class="bg"></div><main class="app"><section class="hero"><h1>TEAM ASSIGN</h1><p>Anzahl Optionen</p><div id="choiceBar"><button class="choice active">2</button><button class="choice">4</button><button class="choice">6</button><button class="choice">8</button><button class="choice">10</button></div><button class="primary">ZUFALLS‑ZUTEILUNG STARTEN</button></section><section class="teams"><article class="card cmd"><div class="head"><div class="rank four"></div><div><h2>CMD</h2><small>Commander / Captain</small></div></div><div class="numbers">① ③ ⑥ ⑧ ⑩</div></article><article class="card fo"><div class="head"><div class="rank three"></div><div><h2>F/O</h2><small>First Officer</small></div></div><div class="numbers">② ④ ⑤ ⑦ ⑨</div></article></section></main></body></html>
