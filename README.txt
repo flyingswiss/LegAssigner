@@ -1,4 +1,7 @@
-Modul 2
-- Ersetzt app.js
-- Teamgröße hat höchste Priorität.
-- Danach wird versucht, gerade/ungerade möglichst gleich zu verteilen.
+Modul 3
+Ersetzt NICHT app.js.
+Füge den Inhalt ans Ende deiner app.js an ODER ersetze app.js, wenn du ihn zusammenführen möchtest.
+Enthält:
+- animierte Chips
+- Karten-Flash
+- Ergebnis kopieren
